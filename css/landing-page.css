@@ -21,12 +21,20 @@ h6 {
     font-weight: 700;
 }
 
+
 img
 {
 -moz-box-shadow: 0 0 40px #808080;
 -webkit-box-shadow: 0 0 40px #808080;
 box-shadow: 0px 0px 40px #808080;
 
+}
+
+#your-img {
+    height: auto; 
+    width: auto; 
+    max-width: 300px; 
+    max-height: 300px;
 }
 
 
@@ -125,7 +133,7 @@ box-shadow: 0px 0px 40px #808080;
 .banner {
     padding: 100px 0;
     color: #f8f8f8;
-    background: url(../img/banner-bg.jpg) no-repeat center center;
+    background: url(../img/rs1.jpg) no-repeat center center;
     background-size: cover;
 }
 
